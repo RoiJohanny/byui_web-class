@@ -26,6 +26,7 @@ body{
 }
 header{
     background-color: #396E94;
+    background-position: 100%;
 }
 nav a:hover{
     background-color: rgb(100, 97, 150);
@@ -70,8 +71,8 @@ h4{
 .msg p{
     color: darkgoldenrod;
 }
-.icon #hero-img{
-    width: 100px;
+.icon #hero-img {
+    width: 80px;
 }
 footer p{
     font-size: 1.2em;
