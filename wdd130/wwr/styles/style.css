@@ -157,6 +157,7 @@ main section img{
     grid-column: 2/3 ;
     grid-row: 1/2 ;
     margin-top: 100px;
+    z-index: -1;
 }
 .home-grid{
     display: grid;
