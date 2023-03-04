@@ -129,7 +129,7 @@ nav a:hover {
   grid-template-areas: ". . home home . ."
     ". . . top . ."
     ". left left right right ."
-    "page2 page2 . . page3 page3";
+    "blog blog . . contact contact";
 }
 .sitemap > div {
   text-align: center;
@@ -139,13 +139,13 @@ nav a:hover {
   background-color: #ccc;
   line-height: 3em;
 }
-.sm-page2 {
-  grid-area: page2;
+.sm-blog {
+  grid-area: blog;
   background-color: #ccc;
   line-height: 3em;
 }
-.sm-page3 {
-  grid-area: page3;
+.sm-contact {
+  grid-area: contact;
   background-color: #ccc;
   line-height: 3em;
 }
