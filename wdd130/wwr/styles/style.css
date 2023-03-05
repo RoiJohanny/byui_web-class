@@ -181,7 +181,11 @@ main section img{
 
 }
 /*Blog page css*/
-
+h1, p{
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+}
 .home-grids{
     display: grid;
     grid-template-columns: repeat(13, 1fr);
