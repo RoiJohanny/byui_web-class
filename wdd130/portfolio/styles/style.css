@@ -230,8 +230,6 @@ h1{
     margin-top: -30px;
     background-color: #1A86CA;
     color: #000;
-
-    
 }
 
 /*contact page */
@@ -253,26 +251,25 @@ form {
     border-width: 2px;
     border-style: solid;
     border-radius: 6px 0px 0px 6px;
-    border-top: -300px;
-    
-  }
+    border-top: -300px;   
+}
   
   ul {
     list-style: none;
     padding: 0;
     margin: 0;
-  }
+}
   
   form li + li {
     margin-top: 1em;
-  }
+}
   
   label {
     /* Uniform size & alignment */
     display: inline-block;
     width: 100px;
     text-align: right;
-  }
+}
   
   input,
   textarea {
@@ -286,13 +283,13 @@ form {
   
     /* Match form field borders */
     border: 1px solid #999;
-  }
+}
   
   input:focus,
   textarea:focus {
     /* Additional highlight for focused elements */
     border-color: #000;
-  }
+}
   
   textarea {
     /* Align multiline text fields with their labels */
@@ -300,16 +297,16 @@ form {
   
     /* Provide space to type some text */
     height: 5em;
-  }
+}
   
   .button {
     /* Align buttons with the text fields */
     padding-left: 90px; /* same size as the label elements */
-  }
+}
   
   button {
     /* This extra margin represent roughly the same space as the space
        between the labels and their text fields */
     margin-left: 0.5em;
-  }
+}
   
