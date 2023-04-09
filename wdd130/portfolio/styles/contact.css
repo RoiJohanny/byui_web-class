@@ -1,0 +1,174 @@
+/*header and footer page */
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #1A86CA;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+nav a:hover{
+    background-color: lightgoldenrodyellow;
+    color: #74edad;
+}
+
+footer{
+    background-color: #1A86CA;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #74edad;
+}
+
+footer p a:hover{
+    text-decoration: underline;
+}
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.icon{
+    padding-top: 10px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    width: 80px;
+}
+footer p{
+    font-size: 1.2em;
+}
+
+/*contact page */
+.conbody{
+    background-color: #fff;
+    font-size: 24px;
+    font-family: 'PT Sans Narrow', sans-serif;
+ 
+}
+.containe{
+    width: 80%;
+    margin: 50px auto;
+}
+.contact-box{
+    background-color: #fff;
+    display: flex;
+
+}
+.cont{
+    flex-basis: 60%;
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1px;
+    
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+    background-color: #1A86CA;
+    color: white;
+
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background-color: #D6C3C9;
+    color: black;
+
+}
+h1{
+    margin-bottom: 10px ;
+    text-align: center;
+
+}
+.containe p {
+    margin-bottom: 10px ;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    
+}
+button{
+    background-color: #D6C3C9;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #000;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.3);
+}
+.contact-left h3{
+    color: #000;
+    font-weight: 600;
+    margin-bottom:30px ;
+}
+.contact-left h3{
+    
+    font-weight: 600;
+    margin-bottom:30px ;
+}
+tr td:first-child{
+    padding-right: 20px;
+}
+tr td{
+    padding-top: 20px;
+}

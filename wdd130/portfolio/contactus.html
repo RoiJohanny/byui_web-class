@@ -5,49 +5,98 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Contact</title>
-    <link rel ='stylesheet' href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&family=Roboto+Condensed:wght@300&family=Roboto:ital,wght@1,300;1,400&family=Sofia+Sans:wght@200&display=swap" rel="stylesheet">
+    <link rel ='stylesheet' href="styles/contact.css">
 </head>
-<body>
+<body class="conbody">
 <div id="content">
     <header> 
     <a id="logo_link" href="index.html" >
         <img class="logo" src="images/mylogo.png" alt="Portfolio logo">
     </a>
     <nav>
-        <a href="index.html">Home </a>
-        <a href="about.html"> About Me</a>
+        <a href="index.html"> Home </a>
+        <a href="about.html"> About Me </a>
         <a href="contactus.html"> Contact Us </a>
     </nav>
     </header>
+    
+    <div class="containe">
+        <h1> Contact Me </h1>
+        <p> I love questions and feedback - and i'm always happy to Learn here are some ways to contact me</p>
+        <div class="cont">
+            <h2>Send me a Message</h2>
+            
+            <div class="con">
+                <h2>Contact Information</h2>
+            </div>
+            
+        </div>
+        <p>send me a Message and i will respond within 24 hours</p>
+        <div class="contact-box">
+            <div class="contact-left">
+                <h3> Send your request </h3>
+                <form>
+                <div class="input-row">
+                    <div class="input-group">
+                        <label>Name</label>
+                        <input type="text" placeholder="Your Full Name">
+                    </div>
+                    <div class="input-group">
+                        <label>Phone Number </label>
+                        <input type="text" placeholder="Your Phone Number">
+                    </div>
+                </div>
+                <div class="input-row">
+                    <div class="input-group">
+                        <label>Email</label>
+                        <input type="email" placeholder="Your Email Address">
+                    </div>
+                    <div class="input-group">
+                        <label>Organization </label>
+                        <input type="text" placeholder="The Name of Your Organization">
+                    </div>
+                </div>
+                <label>Message</label>
+                <textarea rows="5" placeholder="Your Message"></textarea>
+                <button type="submit">SEND</button>
+                </form>
 
-    <div id="feedback">
-        <form action="/my-handling-form-page" method="post">
-            <ul>
+            </div>
+            <div class="contact-right">
+                <h3> Reach Out </h3>
+                <table>
+                    <tr>
+                        <td>Email</td>
+                        <td>johannyjoel2@gmail.com</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Phone</td>
+                        <td>+234 7067339204</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td>106 Marine Base Rivers State <br>
+                            Port Harcourt
+                        </td>
+                        
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    
 
-              <li>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="user_name" />
-              </li>
-              <li>
-                <label for="mail">Email:</label>
-                <input type="email" id="mail" name="user_email" />
-              </li>
-              <li>
-                <label for="msg">Message:</label>
-                <textarea id="msg" name="user_message"></textarea>
-              </li>
-              <li class="button">
-                <button type="submit">Send your message</button>
-              </li>
-              
-            </ul>
-          </form>
-     </div>
- <footer>
+   
+<footer>
     <p>Portfolio &copy; 2023 - Johanny Joel</p>
     <p><a href="site.html">Site Plan</a></p>
     <p><a href="contactus.html">Contact Us</a></p>
-    <p><a href="about.html"> About Me</a></p>
+    <p><a href="about.html"> About Me </a></p>
     <div class="social">
         <a href="https://facebook.com" target="_blank">
             <img src="images/facebook.png" alt="fb icon">
@@ -60,23 +109,7 @@
         </a>
     </div>
 </footer>
-<script>
-    // get the feedback div element so we can do something with it.
-    const feedbackElement = document.getElementById('feedback');
-    // get the form so we can read what was entered in it.
-    const formElement = document.forms[0];
-    // add a 'listener' to wait for a submission of our form. When that happens run the code below.
-    formElement.addEventListener('submit', function(e) {
-        // stop the form from doing the default action.
-        e.preventDefault();
-        // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
-        feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
-        // make the feedback element visible.
-        feedbackElement.style.display = "block";
-        // add a class to move everything down so our message doesn't cover it.
-        document.body.classList.toggle('moveDown');
-    });
-</script>
+
 </div>
 </body>
 </html>
